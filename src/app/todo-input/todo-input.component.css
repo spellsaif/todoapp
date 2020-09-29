@@ -1,0 +1,22 @@
+div {
+    text-align:center;
+    padding-top:100px;
+}
+
+div input {
+    border: 1px solid rgb(182, 181, 181);
+    border-radius: 5px;
+    padding-left:10px;
+    height: 40px;
+    width:400px;
+}
+
+div button {
+    border: 1px solid rgb(182, 181, 181);
+    border-radius: 5px;
+    background-color:  rgb(238, 238, 238);;
+    height: 43px;
+    margin-left:10px;
+    width:80px;
+    cursor: pointer;
+}
