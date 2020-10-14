@@ -9,7 +9,7 @@ export class TodoComponent implements OnInit {
 
   constructor() { }
 
-  public todoList : string[] = [];
+  public todoList : string[] = ['buy chocolate', 'buy milk', 'go for a walk with someone and enjoy'];
   ngOnInit(): void {
   }
 

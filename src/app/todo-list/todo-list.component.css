@@ -1,23 +1,20 @@
 div {
-    display: flex;
+    display:flex;
     justify-content: center;
+    margin-top:10px;
 }
 
-ul {
-    margin-top:60px;
-    list-style: disc;
+.selection {
+    width:400px;
 }
 
-li {
-    cursor: pointer;
-    margin:5px;
+.list {
+    background-color: white;
+    margin-top:5px;
+    border-radius: 4px;
 }
 
-li h1{
-    font-size:28px;
-    font-weight:bold;
-}
-
-li:hover {
+.list:hover{
+    background-color: rgb(214, 211, 211);
     text-decoration: line-through;
 }

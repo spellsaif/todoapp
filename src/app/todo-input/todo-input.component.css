@@ -1,22 +1,37 @@
-div {
-    text-align:center;
-    padding-top:100px;
+.example-form-field {
+    width: 400px;
+    margin-left:35px;
+  }
+
+.form {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
 }
 
-div input {
-    border: 1px solid rgb(182, 181, 181);
-    border-radius: 5px;
-    padding-left:10px;
-    height: 40px;
-    width:400px;
+.label {
+    font-size:34px;
+    color:white;
 }
 
-div button {
-    border: 1px solid rgb(182, 181, 181);
-    border-radius: 5px;
-    background-color:  rgb(238, 238, 238);;
-    height: 43px;
-    margin-left:10px;
-    width:80px;
+.input {
+    
+    padding-top:30px;
+    color: white;
+}  
+
+.button {
+    font-weight:bold;
+    font-size:24px;
+    margin-left : 25px;
+    background-color: white;
+    border:none;
+    width: 80px;
+    height:80px;
+    border-radius: 50%;
+}
+
+.button:hover{
     cursor: pointer;
 }

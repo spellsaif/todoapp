@@ -9,6 +9,8 @@ export class TodoListComponent implements OnInit {
 
   @Input() public todoList : string[];
 
+
+
   constructor() { }
 
   ngOnInit(): void {
